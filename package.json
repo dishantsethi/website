@@ -1,5 +1,5 @@
 {
-  "homepage": "http://dishantsethi.github.io/",
+  "homepage": "http://dishantsethi.github.io/website/",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -24,8 +24,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
