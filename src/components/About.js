@@ -9,10 +9,10 @@ function About() {
         <div class="container-fluid">
           <Card.Header>About</Card.Header>
           <div class="row mb-5 align-items-center">
-            <div class="col-lg-4 pr-lg-5 mb-5 mb-lg-0">
+            <div class="col-md-4 mb-5">
               <img src={pic} class="img-fluid" /> 
             </div>
-            <div class="col-lg-8 pl-lg-5">
+            <div class="col-md-8">
             <ListGroup>
               <ListGroup.Item variant="dark">A 22 year old, born and raised in India.</ListGroup.Item>
               <ListGroup.Item variant="danger">Just like Mr Jobs said, <strong>"Stay Hungry, Stay Foolish"</strong>, He's always curious of technologies and likes to code</ListGroup.Item>

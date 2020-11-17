@@ -17,15 +17,6 @@ function App() {
           <Resume />
           <Contact />
         </Route>
-        <Route exact path="/website/resume/">
-          <Resume />
-        </Route>
-        <Route exact path="/website/about/">
-          <About />
-        </Route>
-        <Route exact path="/website/technology/">
-          <TechStack />
-        </Route>
         <Footer />
       </div>
     </Router>
