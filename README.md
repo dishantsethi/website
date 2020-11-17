@@ -1,5 +1,3 @@
-# vital-front
-
 ## Build Setup
 
 ```bash
