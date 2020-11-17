@@ -8,13 +8,13 @@ const RightSidebar = () => {
         <div>
             <div className="links" onClick={handleEmailMe}>Email Me</div>
             <div className="links">
-                <a href="https://www.linkedin.com/in/dishant-sethi-0b1006157/" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/dishant-sethi-0b1006157/" rel="noreferrer" target="_blank">LinkedIn</a>
             </div>
             <div className="links">
-                <a href="https://gitlab.com/dishantsethi" target="_blank">GitLab</a>
+                <a href="https://gitlab.com/dishantsethi" rel="noreferrer" target="_blank">GitLab</a>
             </div>
             <div className="links">
-                <a href="https://github.com/dishantsethi" target="_blank">GitHub</a>
+                <a href="https://github.com/dishantsethi" rel="noreferrer" target="_blank">GitHub</a>
             </div>
             <div className="skills">
                 <p>SKILLS</p>

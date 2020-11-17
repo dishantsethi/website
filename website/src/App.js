@@ -1,5 +1,4 @@
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Resume from './components/Resume';
 import Header from './components/Header';
 import About from './components/About';
