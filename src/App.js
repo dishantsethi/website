@@ -17,13 +17,13 @@ function App() {
           <Resume />
           <Contact />
         </Route>
-        <Route path="/resume">
+        <Route exact path="/website/resume/">
           <Resume />
         </Route>
-        <Route path="/about">
+        <Route exact path="/website/about/">
           <About />
         </Route>
-        <Route path="/technology">
+        <Route exact path="/website/technology/">
           <TechStack />
         </Route>
         <Footer />
