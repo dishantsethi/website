@@ -11,19 +11,19 @@ function App() {
     <Router>
       <div className="app">
         <Header />
-        <Route exact path="/">
+        <Route path="/">
           <About />
           <TechStack />
           <Resume />
           <Contact />
         </Route>
-        <Route exact path="/resume">
+        <Route path="/resume">
           <Resume />
         </Route>
-        <Route exact path="/about">
+        <Route path="/about">
           <About />
         </Route>
-        <Route exact path="/technology">
+        <Route path="/technology">
           <TechStack />
         </Route>
         <Footer />
