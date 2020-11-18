@@ -6,7 +6,7 @@ function TechStack() {
       <div className="container">
         <Card.Header>Technology Stack</Card.Header>
         <h2 className="container-fluid">
-          <Badge pill variant="secondary" className="tech">Python</Badge>{' '}
+          <Badge pill variant="secondary" className="tech">Python<br/></Badge>{' '}
           <Badge pill variant="secondary" className="tech">Django</Badge>{' '}
           <Badge pill variant="secondary" className="tech">DjangoRestFramework</Badge>{' '}
           <Badge pill variant="secondary" className="tech">Java</Badge>{' '}

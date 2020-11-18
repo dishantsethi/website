@@ -31,8 +31,9 @@ body{
 }
 
 .tech{
-  margin: 20px;
-  width: 300px;
+  margin: 10px;
+  min-width: 124px;
+  max-width: fit-content;
 }
 
 .contact{
@@ -91,6 +92,22 @@ body{
   width: 100%;
   min-height: 80px;
 }
+
+.jobs{
+  color: #9fabbd;
+  text-decoration: underline;
+  font-size: small;
+  margin-bottom: 0;
+}
+
+.jobs__desc{
+  margin-bottom: 10px;
+  font-size: smaller;
+  color: #000000;
+  font-weight: lighter;
+  padding-left: 30px;
+}
+
 
 .experience{
   padding-top: 10px;
