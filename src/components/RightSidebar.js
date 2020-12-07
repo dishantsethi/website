@@ -1,4 +1,6 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
+import DishantSethiResume from '../assets/DishantSethiResume.pdf'
 
 const RightSidebar = () => {
     const handleEmailMe = () => {
@@ -22,7 +24,7 @@ const RightSidebar = () => {
                     <p className="jobs">Web Technologies</p>
                     <div className="jobs__desc">
                         <div>
-                            <p>HTML, CSS, Javascript, ReactJS, VueJS, NuxtJS, Python, Python Django, Django Rest Framework, Google Appscripts, Google Spreadsheets</p>
+                            <p>CSS, Javascript, ReactJS, VueJS, NuxtJS, Python, Python Django, Django Rest Framework, Scrapy, Google Appscripts, Google Spreadsheets</p>
                         </div>
                     </div>
                     <p className="jobs">Programming languages</p>
@@ -34,7 +36,7 @@ const RightSidebar = () => {
                     <p className="jobs">Others</p>
                     <div className="jobs__desc">
                         <div>
-                            <p>Linux, Docker, Kubernetes, Helm, Docker, Git, Postgresql, Wordpress, AWS</p>
+                            <p>Linux, Docker, Kubernetes, Helm, Docker, Git, Gitlab CI Postgresql, Wordpress, AWS</p>
                         </div>
                     </div>
                 </div>
@@ -66,6 +68,8 @@ const RightSidebar = () => {
                     <p className="jobs">Amity University, Noida</p>
                     <div className="jobs__desc">
                         <strong>BTech CSE</strong> 2016 - 2020
+                        <br/>
+                        <strong>CGPA - 7.46/10.0</strong>
                         <div>
                             <li>Helped in managing various events and workshops in college</li>
                             <li>Helped in establishing a Linux User Group (ALiAS)</li>
@@ -95,6 +99,9 @@ const RightSidebar = () => {
                 English,  French (Basic), Hindi
                 </div>
             </div>
+            <a href={DishantSethiResume} target="_blank" rel="noopener noreferrer" download>
+            <Button variant="outline-primary" size="sm" block>Download Resume</Button>
+            </a>
         </div>
     )
 }

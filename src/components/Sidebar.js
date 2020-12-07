@@ -59,45 +59,44 @@ const Sidebar = () => {
             <div className="projects">
                 <div>PROJECTS</div>
                 <div style={{ marginBottom: 0 }}>
-                    <p className="jobs">Todo Task List App</p>
+                    <p className="jobs__heading">Blog <a href="https://dishantsethi.wordpress.com/">(Link)</a></p>
                     <div className="jobs__desc">
-                    <li>dummy</li>
+                    Writing on various current technologies to spread information and motivate beginners.
                     </div>
                 </div>
                 <div style={{ marginBottom: 0 }}>
-                    <p className="jobs">Personal Website</p>
+                    <p className="jobs__heading">Todo Task List App​ <a href="https://github.com/dishantsethi/todo">(Github)</a>​ <a href="https://todotasklistapp.herokuapp.com/">(App)</a></p>
                     <div className="jobs__desc">
-                    <li>dummy</li>
+                    A Simple UI application to track your tasks with cool features.
+                    <li>Technologies: Python, Django, Django Rest Framework. Deployed on heroku, Database: Postgresql</li>
                     </div>
                 </div>
                 <div style={{ marginBottom: 0 }}>
-                    <p className="jobs">Blogging portal </p>
+                    <p className="jobs__heading">Portfolio Website​ <a href="https://github.com/dishantsethi/website">(Github)</a>​</p>
                     <div className="jobs__desc">
-                    <li>dummy</li>
+                    A Personal Portfolio website built on:
+                    <li>Reactjs, React-bootstrap</li>
+                    <li>Deployed on github pages</li>
                     </div>
                 </div>
                 <div style={{ marginBottom: 0 }}>
-                    <p className="jobs">Blogs</p>
+                    <p className="jobs__heading">Docker Images of curl, kubectl, helm for Gitlab Runner​ <a href="https://gitlab.com/dishantsethi/dockerfiles/-/blob/master/README.md">(GitLab)</a></p>
                     <div className="jobs__desc">
-                    <li>Writing on various current technologies to spread information and motivate beginners.</li>
+                    Refer ​ <a href="https://gitlab.com/dishantsethi/dockerfiles/-/blob/master/README.md">README.md</a>​ for description
                     </div>
                 </div>
                 <div style={{ marginBottom: 0 }}>
-                    <p className="jobs">Ecommerce</p>
+                    <p className="jobs__heading">Django-blog portal​ <a href="https://github.com/dishantsethi/django-blog/tree/master/Blog">(Github)</a></p>
                     <div className="jobs__desc">
-                    <li>dummy</li>
+                    A platform where one can post blogs after login and authentication and read blogs anonymously
+                    <li>Technologies: Python, Django, Docker</li>
                     </div>
                 </div>
                 <div style={{ marginBottom: 0 }}>
-                    <p className="jobs">Dockerfiles for linux commands </p>
+                    <p className="jobs__heading">Contributed in other projects like</p>
                     <div className="jobs__desc">
-                    <li>dummy</li>
-                    </div>
-                </div>
-                <div style={{ marginBottom: 0 }}>
-                    <p className="jobs">Helm Chats</p>
-                    <div className="jobs__desc">
-                    <li>dummy</li>
+                    ​ ​ <a href="https://pydelhi.org/blog/pydelhi-meetup-04-August-2018.html">pydelhi/blog</a>​ ,
+                     ​ <a href="https://github.com/Norserium/vue-advanced-cropper/pull/86"> vue-advanced-cropper library​</a> , Instagram Bot(Selenium)
                     </div>
                 </div>
             </div>
