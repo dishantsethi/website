@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.5da29f17.chunk.css",
-    "main.js": "/website/static/js/main.da786b1a.chunk.js",
-    "main.js.map": "/website/static/js/main.da786b1a.chunk.js.map",
+    "main.css": "/website/static/css/main.21c51d56.chunk.css",
+    "main.js": "/website/static/js/main.1496dbd6.chunk.js",
+    "main.js.map": "/website/static/js/main.1496dbd6.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.cb541ad9.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.cb541ad9.js.map",
     "static/js/2.290a607c.chunk.js": "/website/static/js/2.290a607c.chunk.js",
     "static/js/2.290a607c.chunk.js.map": "/website/static/js/2.290a607c.chunk.js.map",
     "index.html": "/website/index.html",
-    "static/css/main.5da29f17.chunk.css.map": "/website/static/css/main.5da29f17.chunk.css.map",
+    "static/css/main.21c51d56.chunk.css.map": "/website/static/css/main.21c51d56.chunk.css.map",
     "static/js/2.290a607c.chunk.js.LICENSE.txt": "/website/static/js/2.290a607c.chunk.js.LICENSE.txt",
     "static/media/DishantSethiResume.c196c7af.pdf": "/website/static/media/DishantSethiResume.c196c7af.pdf",
-    "static/media/pic.f72da0b4.jpg": "/website/static/media/pic.f72da0b4.jpg"
+    "static/media/pic.f6d509a1.jpg": "/website/static/media/pic.f6d509a1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cb541ad9.js",
     "static/js/2.290a607c.chunk.js",
-    "static/css/main.5da29f17.chunk.css",
-    "static/js/main.da786b1a.chunk.js"
+    "static/css/main.21c51d56.chunk.css",
+    "static/js/main.1496dbd6.chunk.js"
   ]
 }
