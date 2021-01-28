@@ -59,12 +59,6 @@ const Sidebar = () => {
             <div className="projects">
                 <div>PROJECTS</div>
                 <div style={{ marginBottom: 0 }}>
-                    <p className="jobs__heading">Blog <a href="https://dishantsethi.wordpress.com/">(Link)</a></p>
-                    <div className="jobs__desc">
-                    Writing on various current technologies to spread information and motivate beginners.
-                    </div>
-                </div>
-                <div style={{ marginBottom: 0 }}>
                     <p className="jobs__heading">Todo Task List App​ <a href="https://github.com/dishantsethi/todo">(Github)</a>​ <a href="https://todotasklistapp.herokuapp.com/">(App)</a></p>
                     <div className="jobs__desc">
                     A Simple UI application to track your tasks with cool features.

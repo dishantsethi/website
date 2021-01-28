@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Button, Nav } from 'react-bootstrap';
+import { Navbar, Button } from 'react-bootstrap';
 
 function Header(props) {
     return (
@@ -7,7 +7,7 @@ function Header(props) {
         <Navbar bg="light" variant="light" expand="lg">
         <Navbar.Brand>Dishant Sethi || Software Engineer</Navbar.Brand>
         <Navbar.Brand className="ml-auto">
-            <a href="https://dishantsethi.wordpress.com" target="_blank">
+            <a href="https://dishantsethi.wordpress.com" rel="noreferrer" target="_blank">
               <Button variant="outline-primary" size="sm">Blog</Button>
             </a>
         </Navbar.Brand>

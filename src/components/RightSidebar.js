@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import DishantSethiResume from '../assets/DishantSethiResume.pdf'
+import DishantSethiSoftwareEngineerResume from '../assets/DishantSethiSoftwareEngineerResume.pdf'
 
 const RightSidebar = () => {
     const handleEmailMe = () => {
@@ -18,50 +18,33 @@ const RightSidebar = () => {
             <div className="links">
                 <a href="https://github.com/dishantsethi" rel="noreferrer" target="_blank">GitHub</a>
             </div>
+            <div className="links">
+                <a href="https://dishantsethi.wordpress.com" rel="noreferrer" target="_blank">Blog</a>
+            </div>
             <div className="skills">
                 <div>SKILLS</div>
                 <div>
-                    <p className="jobs">Web Technologies</p>
-                    <div className="jobs__desc">
-                        <div>
-                            <p>CSS, Javascript, ReactJS, VueJS, NuxtJS, Python, Python Django, Django Rest Framework, Scrapy, Google Appscripts, Google Spreadsheets</p>
-                        </div>
-                    </div>
                     <p className="jobs">Programming languages</p>
                     <div className="jobs__desc">
-                        <div>
-                            <p>Python, Javascript, Java, C++</p>
-                        </div>
+                        Python, Javascript, Java, C++
+                    </div>
+
+                    <p className="jobs">Web Technologies</p>
+                    <div className="jobs__desc">
+                        React, Vue, Nuxt, Django, Django Rest Framework,  RestAPI, Postgres, MySQL, Jest, PyTest
+                    </div>
+                    
+                    <p className="jobs">Cloud/DevOps</p>
+                    <div className="jobs__desc">
+                        Docker, Kubernetes, Helm, AWS, GCP, CloudFormation, Terraform
                     </div>
                     <p className="jobs">Others</p>
                     <div className="jobs__desc">
-                        <div>
-                            <p>Linux, Docker, Kubernetes, Helm, Docker, Git, Gitlab CI Postgresql, Wordpress, AWS</p>
-                        </div>
+                        Gitlab CI, Linux, Google Appscripts, Nginx, Shell Scripting
                     </div>
                 </div>
             </div>
-            <div className="volunteer">
-                <div>VOLUNTEER</div>
-                <div style={{ marginBottom: 20 }}>
-                    <p className="jobs">GirlScript Summer of Code 2019</p>
-                    <div className="jobs__desc">
-                        <strong>Participant and Open Source Contributor</strong> March 2019 - May 2019
-                        <div>
-                        An Open Source program conducted by GirlScript Foundation, with an aim to help beginners get started with Open Source Development.
-                        </div>
-                    </div>
-                </div>
-                <div style={{ marginBottom: 20 }}>
-                    <p className="jobs">Hackathons</p>
-                    <div className="jobs__desc">
-                        <strong>Participant</strong>
-                        <div>
-                        MSHack, Technovation, hackinthenorth, HackVSIT, CodeIT
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <div className="education">
             <div>EDUCATION</div>
                 <div>
@@ -87,19 +70,21 @@ const RightSidebar = () => {
                     </div>
                 </div>
             </div>
-            <div className="hobbies">
-                HOBBIES
-                <div className="jobs__desc">
-                Gym, Cricket
+            <div className="volunteer">
+                <div>ACHIEVEMENTS / RESPONSIBILITIES</div>
+                <div style={{ marginBottom: 20 }}>
+                    <div className="jobs__desc">
+                        <div>
+                        <li>Helped in conducting various events and establishing a Linux User Group (ALiAS) society</li>
+                        <li>GCP: <a href="https://google.qwiklabs.com/public_profiles/eedc5689-0c46-4bb1-90da-063810b217e9" rel="noreferrer" target="_blank">Associate Cloud Engineer Badges from QwikLabs</a></li>
+                        <li>Selected for different Hackathons like MSHack, Technovation, hackinthenorth, HackVSIT, CodeIT</li>
+                        <li>Languages: Hindi, English, French(Basics)</li>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div className="language">
-                LANGUAGES
-                <div className="jobs__desc">
-                English,  French (Basic), Hindi
-                </div>
-            </div>
-            <a href={DishantSethiResume} target="_blank" rel="noopener noreferrer" download>
+            
+            <a href={DishantSethiSoftwareEngineerResume} target="_blank" rel="noopener noreferrer" download>
             <Button variant="outline-primary" size="sm" block>Download Resume</Button>
             </a>
         </div>
