@@ -3,6 +3,10 @@
 
 body{
   background-attachment: fixed;
+  background-size: cover;
+  background-image: url('../src/assets/light.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .app{
@@ -13,13 +17,17 @@ body{
 
 header {
   min-height: 450px;
-  width: 100%;
-  background-color: #e9d5a1;
-  
+  width: 100%;  
+}
+
+#github svg {
+  margin-top: 14px;
+  width: 200%;
+  color: black;
 }
 
 #github svg:hover{
-  color: #f7d88a;
+  color: #8a9af7;
 }
 
 .header-data {
@@ -32,26 +40,10 @@ header {
 }
 
 .square {
-  height: 85px;
-  width: 85px;
-  border-top: 100px solid black;
-  border-right: 100px solid transparent;
-}
-
-.logo {
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-}
-
-@media screen and (max-width:400px) {
-.logo {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20%;
-  margin-bottom: 20%;
-  width: 40%;
-  }
+  height: 110px;
+  width: 110px;
+  border-top: 110px solid white;
+  border-right: 110px solid transparent;
 }
 
 .iconify {
@@ -61,12 +53,6 @@ header {
   background-color: black;
 }
 
-.iconify-window {
-  width: 50px;
-  height: 50px;
-  color: white;
-  background-color: black;
-}
 
 .aligner {
   display: flex;
@@ -77,6 +63,11 @@ header {
 .styles_typicalWrapper__1_Uvh::after {
   cursor: none !important;
   display: none;
+
+}
+
+.styles_typicalWrapper__1_Uvh {
+  color: #fff;
 }
 
 .menu {
