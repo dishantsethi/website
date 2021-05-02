@@ -21,8 +21,8 @@ header {
 }
 
 #github svg {
+  width: auto;
   margin-top: 14px;
-  width: 200%;
   color: black;
 }
 
@@ -40,10 +40,10 @@ header {
 }
 
 .square {
-  height: 110px;
-  width: 110px;
-  border-top: 110px solid white;
-  border-right: 110px solid transparent;
+  height: 120px;
+  width: 120px;
+  border-top: 120px solid white;
+  border-right: 120px solid transparent;
 }
 
 .iconify {

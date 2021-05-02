@@ -7,7 +7,7 @@ function Header(props) {
   
     return (
       <header id="home" style={{height: window.innerHeight}}>
-        { props.headerData && <a href={props.headerData.github_link} id="github" target="blank" style={{position: 'absolute', marginTop: '25px', transform: 'rotate(315deg)', marginLeft: '2px', marginTop: '10px'}}>
+        { props.headerData && <a href={props.headerData.github_link} id="github" target="blank" style={{position: 'absolute', transform: 'rotate(315deg)'}}>
           <span class="iconify" data-icon="ri-github-line" data-inline="false" style={{backgroundColor: 'white'}}></span>
         </a> }
         <div className="square"></div>
