@@ -27,8 +27,8 @@ class Theme extends Component {
         <Switch onChange={this.handleChange} checked={this.state.checked} 
             offColor="#baaa80"
             onColor="#353535"
-            width={90}
-            height={40}
+            width={80}
+            height={35}
             uncheckedIcon={
                 <span
                 className="iconify"

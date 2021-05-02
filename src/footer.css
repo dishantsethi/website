@@ -1,0 +1,66 @@
+#taskbar-wrapper {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#taskbar {
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(1, 1, 1, .8);
+}
+
+#quickstart {
+    background-color: #e9d5a1;
+    float: left;
+}
+
+#taskbar img:hover,
+#tray>span:hover {
+    background-color: #191C1F;
+}
+
+#taskbar img:active,
+#tray>span:active {
+    background-color: rgb(12, 16, 20);
+}
+#tray {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#tray span {
+    margin: 0;
+    font-size: 0.75em;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+    float: right;
+    color: white;
+    text-align: center;
+}
+
+#language {
+    line-height: 270%;
+}
+.iconify {
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: auto;
+    height: 50px;
+    color: white;
+    background-color: rgba(1, 1, 1, .8);
+}
+
+#quickstart svg:hover{
+    background-color: #191C1F;
+}
