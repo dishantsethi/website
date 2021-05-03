@@ -1,9 +1,16 @@
-// import coding from '../../src/assets/coding.png';
 import Typical from "react-typical";
 import Theme from './Theme';
 import MenuSidebar from './MenuSidebar';
+import {
+  isMobile
+} from "react-device-detect";
+import { useEffect } from "react";
 
 function Header(props) {
+
+  useEffect(() => {
+    {isMobile && alert("Visit this site from Desktop/Laptop for seamless User Experience")}
+  },[])
   
     return (
       <header id="home" style={{height: '100%'}}>
@@ -24,16 +31,6 @@ function Header(props) {
         </div>
         {props.headerData && <MenuSidebar data={props.headerData.linkedin_link} />}
       </header>
-      // <div>
-        // {/* <Navbar bg="light" variant="light" expand="lg">
-        // <Navbar.Brand>Dishant Sethi || Software Engineer</Navbar.Brand>
-        // <Navbar.Brand className="ml-auto">
-        //     <a href="https://dishantsethi.wordpress.com" rel="noreferrer" target="_blank">
-        //       <Button variant="outline-primary" size="sm">Blog</Button>
-        //     </a>
-        // </Navbar.Brand>
-        // </Navbar> */}
-      // </div>
     );
 }
 

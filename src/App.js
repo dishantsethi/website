@@ -7,7 +7,6 @@ import Contact from './components/Contact'
 import TechStack from './components/TechStack'
 import You from './components/You'
 import React, { useEffect, useState } from 'react';
-import $ from 'jquery';
 
 function App() {
   
