@@ -1,18 +1,18 @@
 #taskbar-wrapper {
-    position: absolute;
+    position: fixed;
     padding: 0;
     margin: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    height: 50px;
+    background-color: rgba(1, 1, 1, .8);
 }
 
 #taskbar {
-    height: 50px;
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: rgba(1, 1, 1, .8);
 }
 
 #quickstart {

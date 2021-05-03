@@ -33,19 +33,19 @@ function App() {
     },[])
 
   return (
-    <Router>
+    // <Router>
       <div className="app">
         <Header headerData={data}/>
-        <Route path="/">
+      </div>
+        /* <Route path="/">
           <About />
           <TechStack />
           <Resume />
-          {/* <You /> */}
+          <You />
           <Contact />
         </Route>
-        <Footer />
-      </div>
-    </Router>
+        <Footer /> */
+    // </Router>
   );
 }
 
