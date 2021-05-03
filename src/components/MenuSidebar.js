@@ -38,7 +38,7 @@ function MenuSidebar(props) {
                     </div>
                     <a href="https://www.google.com" title="Open New Tab" target="blank"><span class="iconify" data-icon="grommet-icons:chrome" data-inline="false"></span></a>
                     <a href="https://www.netflix.com" target="blank"><span class="iconify" data-icon="logos:netflix-icon" data-inline="false"></span></a>
-                    <a href={props.data} target="blank"><span class="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span></a>
+                    {props.headerData && <a href={props.headerData.linkedin_link} target="blank"><span class="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span></a>}
                 </div>
                 <div id="tray">
                     <span id="system-time">{state.getHours()}:{ state.getMinutes()<10 ? "0"+ state.getMinutes() : state.getMinutes()}:{state.getSeconds()}<br/>{state.getDay()+1}/{state.getMonth()}/{state.getFullYear()}</span>

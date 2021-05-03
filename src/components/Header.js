@@ -1,6 +1,5 @@
 import Typical from "react-typical";
 import Theme from './Theme';
-import MenuSidebar from './MenuSidebar';
 import {
   isMobile
 } from "react-device-detect";
@@ -29,7 +28,6 @@ function Header(props) {
             <Theme />
           </div>
         </div>
-        {props.headerData && <MenuSidebar data={props.headerData.linkedin_link} />}
       </header>
     );
 }
