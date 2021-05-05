@@ -160,45 +160,113 @@ header {
 .i1{
  background: yellow; 
  transition: width 1s;
+ animation: mymove 2s infinite;
+ animation-direction: alternate;
 }
+@keyframes mymove {
+  from {
+    background: yellow;
+  }
 
+  to {
+    background: #e74c3c;
+  }
+}
 .i1:hover{
   margin: 8px;
 }
+
 .i2 {
   background: #e74c3c;
   transition: width 1s;
+  animation: mymove1 2s infinite;
+  animation-direction: alternate;
 }
 .i2:hover {
   margin: 8px;
 }
+@keyframes mymove1 {
+  from {
+    background: #2ecc71;
+  }
+
+  to {
+    background: #0064b9;
+  }
+}
+
 .i3 {
   background: #0064b9;
   transition: width 1s;
+  animation: mymove3 2s infinite;
+  animation-direction: alternate;
 }
 .i3:hover {
   margin: 8px;
 }
+@keyframes mymove3 {
+  from {
+    background: #0064b9;
+  }
+
+  to {
+    background: #fa9495;
+  }
+}
+
 .i4 {
   background: #9b59b6;
   transition: width 1s;
+  animation: mymove4 2s infinite;
+  animation-direction: alternate;
 }
 .i4:hover {
   margin: 8px;
 }
+@keyframes mymove4 {
+  from {
+    background: #9b59b6;
+  }
+
+  to {
+    background: yellow;
+  }
+}
 .i5 {
   background: #0064b9;
   transition: width 1s;
+  animation: mymove5 2s infinite;
+  animation-direction: alternate;
 }
 .i5:hover {
   margin: 8px;
 }
+@keyframes mymove5 {
+  from {
+    background: #0064b9;
+  }
+
+  to {
+    background: #2ecc71;
+  }
+}
 .i6 {
   background: #2ecc71;
   transition: width 1s;
+  animation: mymove6 2s infinite;
+  animation-direction: alternate;
 }
 .i6:hover {
   margin: 8px;
+}
+@keyframes mymove6 {
+  from {
+    background: #2ecc71;
+  }
+  
+  to {
+    background: #0064b9;
+  }
 }
  ion-icon{
    margin: 4px;

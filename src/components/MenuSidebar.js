@@ -6,7 +6,6 @@ import { isMobile, isBrowser } from "react-device-detect";
 
 function MenuSidebar(props) {
     const [state, setState] = useState(new Date())
-    const browser = isBrowser
     useEffect(() => {
         var timer = setInterval(() => setState(new Date()), 1000)
         
