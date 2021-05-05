@@ -37,46 +37,58 @@ function MenuSidebar(props) {
                             <div className="metro">
                               <div className="l1">
                                 <li className="item i1">
+                                  <a href="https://google.com" target='blank' style={{display: 'block', background: 'unset'}}>
                                   <div style={{marginTop: '4%'}}>
                                   <ion-icon name="logo-chrome"></ion-icon>
                                   <div> Chrome</div>
                                   </div>
+                                  </a>
                                 </li>
                                 <li className="item i2">
+                                  <a href="https://www.google.com/search?q=videos" target='blank' style={{display: 'block', background: 'unset'}}>
                                   <div style={{marginTop: '4%'}}>
                                   <ion-icon name="videocam-outline"></ion-icon>
                                   <div> Videos</div>
                                   </div>
+                                  </a>
                                 </li>
                               </div>
                               <div className="l1">
                                 <li className="item i3">
+                                  <a href="https://www.youtube.com/" target='blank' style={{display: 'block', background: 'unset'}}>
                                   <div style={{marginTop: '4%'}}>
                                   <ion-icon name="logo-youtube"></ion-icon>
                                   <div> Youtube</div>
                                   </div>
+                                  </a>
                                 </li>
                               </div>
                               <div className="l1">
                                 <li className="item i4">
+                                  <a href="https://myaccount.google.com/" target='blank' style={{display: 'block', background: 'unset'}}>
                                   <div style={{marginTop: '4%'}}>
                                   <ion-icon name="settings-outline"></ion-icon>
                                   <div> Control Panel</div>
                                   </div>
+                                  </a>
                                 </li>
                                 <li className="item i5">
+                                  <a href="https://www.netflix.com/" target='blank' style={{display: 'block', background: 'unset'}}>
                                   <div style={{marginTop: '4%'}}>  
                                   <ion-icon name="tv-outline"></ion-icon>
                                   <div>Movie & TV</div>
                                   </div>
+                                  </a>
                                 </li>
                               </div>
                               <div className="l1">
                                 <li className="item i6">
+                                  <a href="https://photos.google.com/" target='blank' style={{display: 'block', background: 'unset'}}>
                                   <div style={{marginTop: '4%'}}>
                                   <ion-icon name="image-outline"></ion-icon>
                                   <div> Photos</div>
                                   </div>
+                                  </a>
                                 </li>
                               </div>
                             </div>
@@ -98,7 +110,7 @@ function MenuSidebar(props) {
                     {props.headerData && <a href={props.headerData.linkedin_link} target="blank"><span class="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span></a>}
                 </div>
                 <div id="tray">
-                    <span id="system-time">{state.getHours()}:{ state.getMinutes()<10 ? "0"+ state.getMinutes() : state.getMinutes()}:{state.getSeconds()}<br/>{state.getDay()+1}/{state.getMonth()}/{state.getFullYear()}</span>
+                    <span id="system-time">{state.getHours()}:{ state.getMinutes()<10 ? "0"+ state.getMinutes() : state.getMinutes()}:{state.getSeconds()}<br/>{state.getDay()+2}/{state.getMonth()}/{state.getFullYear()}</span>
                     <span id="language">ENG</span>
                 </div>
             </div>

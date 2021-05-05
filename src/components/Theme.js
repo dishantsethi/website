@@ -63,6 +63,7 @@ class Theme extends Component {
                 ></span>
             }
             />
+            {document.body.getAttribute('data-theme') === 'light' ? <div style={{color:'white'}}>Dark Mode</div> : <div style={{color:'white'}}>Light Mode</div>}
       </label>
     );
   }
