@@ -1,9 +1,12 @@
 import React, { useEffect, useState }  from "react";
+import { Col, Row } from "react-bootstrap";
 import '../../src/footer.css';
+import { Link, Route, Router } from 'react-router-dom'
+import { isMobile, isBrowser } from "react-device-detect";
 
 function MenuSidebar(props) {
     const [state, setState] = useState(new Date())
-    
+    const browser = isBrowser
     useEffect(() => {
         var timer = setInterval(() => setState(new Date()), 1000)
         
@@ -12,21 +15,76 @@ function MenuSidebar(props) {
         }
     })
     
-    
     return (
         <div id="taskbar-wrapper">
             <div id="taskbar">
                 <div id="quickstart">
                     <div class="dropup">
                       <div class="dropup-content">
-                        <a>About</a>
-                        <a>Skills</a>
-                        <a>Experience</a>
-                        <a>Projects</a>
-                        <a>Education</a>
-                        <a>About You</a>
-                        <a>Hire Me</a>
-                        <a>Donate</a>
+                        <Row class="ow" style={{width: '40vw', backgroundColor: 'currentColor', margin: '0px', paddingTop: '10px', paddingLeft:'7px', paddingRight: '7px' }}>
+                          <Col style={{color: 'white'}}>
+                            <Row id="menu-icon"> <ion-icon name="happy-outline"></ion-icon> About</Row>
+                            <Row id="menu-icon"> <ion-icon name="bar-chart-outline"></ion-icon> Skills</Row>
+                            <Row id="menu-icon"> <ion-icon name="desktop-outline"></ion-icon> Experience</Row>
+                            <Row id="menu-icon"> <ion-icon name="code-outline"></ion-icon> Projects</Row>
+                            <Row id="menu-icon"> <ion-icon name="book-outline"></ion-icon> Education</Row>
+                            <Row id="menu-icon"> <ion-icon name="person-add-outline"></ion-icon> About You</Row>
+                            <Row id="menu-icon"> <ion-icon name="git-network-outline"></ion-icon> Hire Me</Row>
+                            <Row id="menu-icon"> <ion-icon name="card-outline"></ion-icon> Donate</Row>
+                          </Col>
+                          {
+                            isBrowser && 
+                          <Col style={{width: '10px'}}>
+                            <div className="metro">
+                              <div className="l1">
+                                <li className="item i1">
+                                  <div style={{marginTop: '4%'}}>
+                                  <ion-icon name="logo-chrome"></ion-icon>
+                                  <div> Chrome</div>
+                                  </div>
+                                </li>
+                                <li className="item i2">
+                                  <div style={{marginTop: '4%'}}>
+                                  <ion-icon name="videocam-outline"></ion-icon>
+                                  <div> Videos</div>
+                                  </div>
+                                </li>
+                              </div>
+                              <div className="l1">
+                                <li className="item i3">
+                                  <div style={{marginTop: '4%'}}>
+                                  <ion-icon name="logo-youtube"></ion-icon>
+                                  <div> Youtube</div>
+                                  </div>
+                                </li>
+                              </div>
+                              <div className="l1">
+                                <li className="item i4">
+                                  <div style={{marginTop: '4%'}}>
+                                  <ion-icon name="settings-outline"></ion-icon>
+                                  <div> Control Panel</div>
+                                  </div>
+                                </li>
+                                <li className="item i5">
+                                  <div style={{marginTop: '4%'}}>  
+                                  <ion-icon name="tv-outline"></ion-icon>
+                                  <div>Movie & TV</div>
+                                  </div>
+                                </li>
+                              </div>
+                              <div className="l1">
+                                <li className="item i6">
+                                  <div style={{marginTop: '4%'}}>
+                                  <ion-icon name="image-outline"></ion-icon>
+                                  <div> Photos</div>
+                                  </div>
+                                </li>
+                              </div>
+                            </div>
+                          </Col>
+                          }
+                          
+                        </Row>
                       </div>
                       <span class="iconify" data-icon="ant-design:windows-filled" data-inline="false" style={{boxShadow: '100px'}}></span>
                     </div>

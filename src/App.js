@@ -36,7 +36,6 @@ function App() {
   return (
     // <Router>
       <div className="app">
-        {document.body.style.overflow = "hidden"}
         <Header headerData={data}/>
         <MenuSidebar headerData={data} />
       </div>
