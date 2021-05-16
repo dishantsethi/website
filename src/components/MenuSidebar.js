@@ -1,14 +1,13 @@
 import React, { useEffect, useState }  from "react";
 import { Col, Row } from "react-bootstrap";
 import '../../src/footer.css';
-import { Link, Route, Router } from 'react-router-dom'
-import { isMobile, isBrowser } from "react-device-detect";
+import { isBrowser } from "react-device-detect";
 
 function MenuSidebar(props) {
     const [state, setState] = useState(new Date())
+
     useEffect(() => {
         var timer = setInterval(() => setState(new Date()), 1000)
-        
         return function cleanup(){
             clearInterval(timer)
         }
