@@ -108,7 +108,7 @@
 }
 
 /* Show the dropup menu on hover */
-.dropup:hover .dropup-content {
+.dropup-content {
     display: block;
 }
 

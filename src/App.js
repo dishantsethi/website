@@ -1,7 +1,6 @@
 // import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Resume from './components/Resume';
 import Header from './components/Header';
-import About from './components/About';
 import Footer from './components/Footer';
 import Contact from './components/Contact'
 import TechStack from './components/TechStack'
@@ -13,7 +12,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 function App() {
   
   const [data, setData] = useState(null);
-
+  
   const getData=()=>{
     fetch('info.json',{
       headers : { 
