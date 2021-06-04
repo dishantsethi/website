@@ -304,6 +304,19 @@ header {
   cursor: pointer;
 }
 
+.modal-content{
+background-color: bisque;
+opacity: 0.9;
+}
+
+.modal-title{
+  color: #000000;
+}
+
+.modal-body{
+  color: #000000;
+}
+
 .row{
   /* height: 90vh; */
   margin-top: 20px;
@@ -329,7 +342,7 @@ header {
 
 .tech{
   margin: 10px;
-  min-width: 124px;
+  min-width: 70px;
   max-width: fit-content;
 }
 
@@ -425,6 +438,10 @@ header {
   color: #000000;
   font-weight: lighter;
   padding-left: 30px;
+}
+
+.close{
+  color: #000000;
 }
 
 

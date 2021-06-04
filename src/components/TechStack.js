@@ -6,39 +6,13 @@
 //       <div className="container">
 //         <Card.Header>Technology Stack</Card.Header>
 //         <h2 className="container-fluid">
-//           <Badge pill variant="secondary" className="tech">Python<br/></Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">JavaScript</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Java</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">C++</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">React</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Vue</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Nuxt</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Django</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">DjangoRestFamework</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">RestAPI</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Postgres</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">MySql</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Jest</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">PyTest</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Docker</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Kubernetes</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Helm</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">AWS</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">GCP</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">CloudFormation</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Terraform</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">GitLab CI</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Linux</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Google Appscripts</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Nginx</Badge>{' '}
-//           <Badge pill variant="secondary" className="tech">Shell Scripting</Badge>{' '}
 //         </h2>
 //       </div>
 //     );
 // }
 
 import React, { useState } from 'react';
-import { Modal } from 'react-bootstrap';
+import { Modal, Badge } from 'react-bootstrap';
 
 function TechStack(props) {
     const [showSkills, setShowSkills] = useState();
@@ -59,12 +33,56 @@ function TechStack(props) {
         </button>
         {showSkills && 
         <div className="overlay">
-          <Modal.Dialog>
+          <Modal.Dialog size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
             <Modal.Header closeButton onClick={closeSkillsHandler}>
-              <Modal.Title style={{color: 'black'}}>Skills</Modal.Title>
+              <Modal.Title>Skills</Modal.Title>
             </Modal.Header>
-            <Modal.Body style={{color: 'black'}}>
-              <p>Thanks for showing interest</p>
+            <Modal.Body>
+              <div style={{overflowY: 'scroll', height: '50vh'}}>
+              <h5>Programming Languages</ h5>
+
+                <Badge pill variant="secondary"  >Python</Badge>{' '}
+                <Badge pill variant="secondary"  >JavaScript</Badge>{' '}
+                <Badge pill variant="secondary"  >Java</Badge>{' '}
+                <Badge pill variant="secondary"  >HTML</Badge>{' '}
+                <Badge pill variant="secondary"  >CSS</Badge>{' '}
+
+              <h5>Frontend Technologies</ h5>
+                <Badge pill variant="secondary"  >React</Badge>{' '}
+                <Badge pill variant="secondary"  >Vue</Badge>{' '}
+                <Badge pill variant="secondary"  >Nuxt</Badge>{' '}
+                <Badge pill variant="secondary"  >Next</Badge>{' '}
+                <Badge pill variant="secondary"  >Redux</Badge>{' '}
+                <Badge pill variant="secondary"  >Vuex</Badge>{' '}
+                <Badge pill variant="secondary"  >Jest</Badge>{' '}
+
+              <h5>Backend Technologies</ h5>
+                <Badge pill variant="secondary"  >Django</Badge>{' '}
+                <Badge pill variant="secondary"  >DjangoRestFamework</Badge>{' '}
+                <Badge pill variant="secondary"  >Flask</Badge>{' '}
+                <Badge pill variant="secondary"  >RestAPI</Badge>{' '}
+                <Badge pill variant="secondary"  >PyTest</Badge>{' '}
+                <Badge pill variant="secondary"  >Postgres</Badge>{' '}
+
+              <h5>Devops tools/OS</ h5>
+                <Badge pill variant="secondary"  >Git</Badge>{' '}
+                <Badge pill variant="secondary"  >Docker</Badge>{' '}
+                <Badge pill variant="secondary"  >Kubernetes</Badge>{' '}
+                <Badge pill variant="secondary"  >Helm</Badge>{' '}
+                <Badge pill variant="secondary"  >AWS</Badge>{' '}
+                <Badge pill variant="secondary"  >CloudFormation</Badge>{' '}
+                <Badge pill variant="secondary"  >Terraform</Badge>{' '}
+                <Badge pill variant="secondary"  >GitLab CI</Badge>{' '}
+                <Badge pill variant="secondary"  >Travis CI</Badge>{' '}
+                <Badge pill variant="secondary"  >Linux</Badge>{' '}
+                <Badge pill variant="secondary"  >Nginx</Badge>{' '}
+                <Badge pill variant="secondary"  >Shell Scripting</Badge>{' '}
+
+              <h5>Other Skills</ h5>
+                <Badge pill variant="secondary"  >Documentation</Badge>{' '}
+                <Badge pill variant="secondary"  >Flow diagrams</Badge>{' '}
+                <Badge pill variant="secondary"  >Problem Solving/Debugging</Badge>{' '}
+            </div>
             </Modal.Body>
           </Modal.Dialog>
         </div>  

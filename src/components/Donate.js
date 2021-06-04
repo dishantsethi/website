@@ -20,11 +20,11 @@ function Donate(props) {
         </button>
         {showDonate && 
         <div className="overlay">
-          <Modal.Dialog>
+          <Modal.Dialog size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
             <Modal.Header closeButton onClick={closeDonateHandler}>
-              <Modal.Title style={{color: 'black'}}>Want to Donate ?? </Modal.Title>
+              <Modal.Title>Want to Donate ?? </Modal.Title>
             </Modal.Header>
-            <Modal.Body style={{color: 'black'}}>
+            <Modal.Body>
               <p>Thanks for showing interest</p>
             </Modal.Body>
           </Modal.Dialog>

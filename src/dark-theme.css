@@ -5,3 +5,33 @@ body[data-theme="dark"]
     background-position: center;
     background-repeat: no-repeat;
 }
+
+body[data-theme="dark"] .modal-content {
+    background-color: black;
+    /* opacity: 0.9; */
+}
+
+body[data-theme="dark"] .modal-title {
+    color: white;
+}
+
+body[data-theme="dark"] .modal-body {
+    color: white;
+}
+
+body[data-theme="dark"] .jobs__desc {
+    margin-bottom: 10px;
+    font-size: smaller;
+    color: white;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+
+body[data-theme="dark"] .jobs__heading {
+    color: white;
+    margin-bottom: 0;
+}
+
+body[data-theme="dark"] .close {
+    color: wheat;
+}
