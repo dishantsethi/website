@@ -52,7 +52,6 @@ function Education(props) {
                 <p className="jobs">Certified AWS Cloud Practitioner - AWS</p>
                 <p className="jobs">Certified React, Redux Developer - Udemy</p>
                 <p className="jobs">Certified Django and Django Rest Framework Web Developer - Udemy</p>
-
             </div>
             </div>
             </Modal.Body>

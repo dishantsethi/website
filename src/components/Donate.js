@@ -16,16 +16,16 @@ function Donate(props) {
       <div style={{margin: 'auto'}}>
         <button className="about_button" onClick={showDonateHandler}>
           <ion-icon name="card-outline"></ion-icon>          
-        <div style={{display: 'inline', margin: '5px'}}>Donate</div>
+        <div style={{display: 'inline', margin: '5px'}}>Buy Me A Coffee!</div>
         </button>
         {showDonate && 
         <div className="overlay">
           <Modal.Dialog size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
             <Modal.Header closeButton onClick={closeDonateHandler}>
-              <Modal.Title>Want to Donate ?? </Modal.Title>
+              <Modal.Title>Buy Me A Coffee</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-              <p>Thanks for showing interest</p>
+              <p>UPI: dishantsethi@axisbank</p>
             </Modal.Body>
           </Modal.Dialog>
         </div>  
