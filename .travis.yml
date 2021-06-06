@@ -13,7 +13,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $PORTFOLIO_ACCESS_TOKEN # Set in the settings page of your repository, as a secure variable
+  github_token: $PORTFOLIO_ACCESS_TOKEN
   keep_history: true
   on:
     branch: master
