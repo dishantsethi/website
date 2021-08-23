@@ -41,18 +41,21 @@ function About(props) {
                 <p style={{textAlign: 'center'}}>Dont DM for rishtas</p>
                 </div> :
                 <div>
-                  <p><b>Outline of his Technical Experience</b><br/>
+                  <p><b>Outline of his Professional Experience</b><br/>
                   <ul>
+                    <li>Believer in Agile Software Development, team work and Clean Code.</li>
+                    <li>Fast learner and eager to explore new technologies.</li>
+                    <li>Developed, Architeched Microservice backend</li>
+                    <li>Able and willing to think outside the box.</li>
                     <li>Good understading of Kubernetes and Helm</li>
                     <li>Good understading for Django and Flask</li>
                     <li>To be Certified React, Redux, React Hooks, Next Developer</li>
-                    <li>Worked with Vue and nuxt</li>
+                    <li>Well informed with Vue and nuxt</li>
                     <li>To be Certified AWS Cloud Practitioner</li>
-                    <li>Worked with AWS products such as EC2, VPC, S3, Load Balancer, Cloudwatch, Elastic Container Services for deploying solutions on the Cloud</li>
-                    <li>Used Terraform for launching infrastructure and Travis for CI/CD</li>
+                    <li>Worked with AWS products such as EC2, VPC, S3, Load Balancer, Cloudwatch, Elastic Container Services for deploying solutions in the Cloud</li>
+                    <li>Used Terraform for launching infrastructure</li>
+                    <li>Familiar with Travis CI, Gitlab CI, Argo CD</li>
                     <li>Worked with Queues(celery), Cache(redis), Databases(postgresql)</li>
-                    <li>Developed, architeched microservice backend</li>
-                    <li>Problem solving, workaround development and communication</li>
                   </ul>
                   </p>
                 </div>

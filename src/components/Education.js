@@ -44,14 +44,15 @@ function Education(props) {
                     <p className="jobs">N C Jindal Public School, Punjabi Bagh</p>
                     <div className="jobs__desc">
                         <strong>Secondary Education</strong> 2014 - 2016
+                        <br/>
+                        <strong>% - 88.25/100</strong>
                         <div>
                             <li>Science (Non-med)</li>
                         </div>
                     </div>
                 </div>
-                <p className="jobs">Certified AWS Cloud Practitioner - AWS</p>
-                <p className="jobs">Certified React, Redux Developer - Udemy</p>
-                <p className="jobs">Certified Django and Django Rest Framework Web Developer - Udemy</p>
+                { false && <p className="jobs">Certified AWS Cloud Practitioner - AWS</p>}
+                { false && <p className="jobs">Certified React, Redux Developer - Udemy</p>}
             </div>
             </div>
             </Modal.Body>

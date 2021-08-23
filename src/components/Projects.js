@@ -28,13 +28,13 @@ function Projects(props) {
               <div style={{overflowY: 'scroll', height: '50vh'}}>
 
                 <div className="projects">
-                {/* <div style={{ marginBottom: 0 }}>
-                    <p className="jobs__heading">Todo Task List App​</p>
+                <div style={{ marginBottom: 0 }}>
+                    <p className="jobs__heading">Sethi's Clothing Store - Ecommerce​</p>
                     <div className="jobs__desc">
-                    A Simple UI application to track your tasks with cool features.
-                    <li>Technologies: Python, Django, Django Rest Framework. Deployed on heroku, Database: Postgresql</li>
+                    Personalised clothing store built using Vue, VueX, Django and Django Rest Framework.
+                    <li>Deployed on free-tier eligible EC2 instance.</li>
                     </div>
-                </div> */}
+                </div>
                 <div style={{ marginBottom: 0 }}>
                     <p className="jobs__heading">Portfolio Website​</p>
                     <div className="jobs__desc">

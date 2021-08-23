@@ -68,19 +68,20 @@ function Experience(props) {
                     <div className="jobs__desc">
                         <strong>Software Development Engineer</strong> June 2020 - Present
                         <div>
-                        <li>Managed deployments of <strong>Vue/Nuxt/Django</strong> based projects on <strong>Kubernetes(DigitalOcean)</strong> and <strong>AWS</strong></li>
-                        <li><strong>CI/CD on Gitlab</strong> for Vue/Nuxt/Django based projects</li>
-                        <li>Contributed in company's website <strong>UI, Dockerfile, Helm Charts, backend APIs</strong> </li>
-                        <li>Technologies - <strong>Vue, Nuxt, Docker, Kubernetes, Django Rest Framework</strong> </li>
+                            <li>Regularly interfaced with clients and took complete <strong>ownership</strong> of 2 applications.</li>
+                            <li>Contributed to <strong>developing an automation system</strong> that prioritizes and monitor charts for OCR processing for Episource.</li>
+                            <li>Successfully developed a logic to turn off idle instances automatically which saved a lot of <strong>unnecessary cost(around 3000$/year) and manual monitoring time.</strong></li>
+                            <li><strong>Implemented and designed an archival system</strong> for processed charts, which improved the efficiency of the system. Also, Carefully <strong>documented technical workflows</strong> for the education of newly hired employees.</li>
+                            <li>Successfully scaled Episource’s Risk Adjustment Toolkit from <strong>a single calculation to million calculations at a time.</strong></li>
                         </div>
                     </div>
                     <div className="jobs__desc">
                         <strong>SDE Intern</strong> May 2019 - July 2019
                         <div>
-                        The internship aims to solve the issues of a few open-source projects (pythonindia/junction and Fueled/django-init) that concern the company.
-                        <li>Send PR for few bugs of pythonindia/junction</li>
-                        <li>Study the architecture of Fueled/django-init</li>
-                        <li>Technologies - Python Django, Docker</li>
+                            <li><strong>Solve GitHub issues of an open-source project (pythonindia/junction).</strong></li>
+                            <li>Technologies - Python, Django, Django Rest Framework, Docker.</li>
+                            <li>Learnt about boilerplate Django application with <strong>2FA.</strong></li>
+                            <li>Also showed the following leadership skills: <strong>1) Think Big 2) Have backbone; disagree and commit 3) Insist on highest standards 4) Dive deep.</strong></li>
                         </div>
                     </div>
                     </div>
@@ -117,8 +118,9 @@ function Experience(props) {
                     <div className="jobs__desc">
                         <strong>Web Development Intern</strong> May 2018 - June 2018
                         <div>
-                        Contributed in creating UI for project titled 'Agri Coaching'
-                        <li>Technologies - CSS, Javascript</li>
+                        <li>Contributed in <strong>creating UI</strong> for project titled 'Agri Coaching'.</li>
+                        <li>Technologies - CSS, Bootstrap, Javascript.</li>
+                        <li>Learnt about Vanilla Javascript fundamentals.</li>
                         </div>
                     </div>
                     }
